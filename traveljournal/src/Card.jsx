@@ -8,7 +8,7 @@ function Card(props) {
         <div className="locationbox">
           <p>{props.location}</p>
           <p>
-            <a href="{props.googleMapsUrl}">View on Google Maps</a>
+            <a href="{props.googleMapsUrl}"> View on Google Maps</a>
           </p>
         </div>
         <h2>{props.title}</h2>
